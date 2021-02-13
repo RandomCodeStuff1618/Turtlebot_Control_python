@@ -29,7 +29,7 @@ class control_turtlebot():
         rospy.loginfo("To stop TurtleBot CTRL + C")
         # What to do you ctrl + c    
         rospy.on_shutdown(self.shutdown)
-        # YOu should also know something called , rospy.spin()
+        # You should also know something called , rospy.spin()
         # The spin() code simply sleeps until the is_shutdown() flag is True. 
         # It is mainly used to prevent your Python Main thread from exiting.
         #For manual shutdown
